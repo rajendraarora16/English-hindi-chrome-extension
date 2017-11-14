@@ -5,7 +5,7 @@ window.onload = function () {
   checkPageButton.onclick = function(){
     var searchWord = document.getElementById("word").value;
     console.log('btn is clicked');
-    var url = encodeURI("https://rajendraarora2009.000webhostapp.com/");    
+    var url = encodeURI("http://rajendraarora2009.000webhostapp.com/");    
     var countURL = 0;
 
     $("#load-meaning").text("");
